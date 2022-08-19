@@ -1,7 +1,7 @@
 .header {
 		width: 960px;
 		background: #b8f5de;
-		margin: 120px auto;
+		margin: 90px auto;
 		color: #ff0000;
 		font-size: 16px;
 		text-align: center;
@@ -25,5 +25,46 @@
 		text-decoration: none;
 }
 .feedback{
-	
+		width: 960px;
+		background: #e9d7f7;
+		margin: 10px auto;
+		color: #000;
+		font-size: 20px;
+		text-align: center;
+		padding: 5px;
+		padding-bottom: 30px;
+		border: 1px solid #000;
+		border-radius: 30px;
+	}
+.container{
+		width: 960px;
+		text-align: center;
 }
+.form__input {
+		display: block;
+		width: 400px;
+		background: white;
+		border: 1px dashed;
+		font-size: 14px;
+		padding: 10px 4px;
+		margin: auto;
+		margin-bottom: 10px;
+}
+.colledge{
+		color: #ff2003
+}
+.colledge:hover {
+		color: #176ceb;
+		text-decoration: none;
+}
+.form {
+		text-align: center;
+}
+.form__buttom {
+		width: 400px;
+		background: black;
+		font-size: 14px;
+		border: 0;
+		padding: 10px;
+		color: white;
+	}
