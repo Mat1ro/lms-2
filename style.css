@@ -1,6 +1,7 @@
 body{
 		height: 100vh;
 		position: relative;
+		margin: 0;
 }
 body::after{
 		content: "";
@@ -16,7 +17,8 @@ body::after{
 .header {
 		width: 960px;
 		background: #b8f5de;
-		margin: 90px auto;
+		margin: auto;
+		margin-bottom: 90px;
 		color: #ff0000;
 		font-size: 16px;
 		text-align: center;
